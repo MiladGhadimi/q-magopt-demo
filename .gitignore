@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# results/ is committed on purpose: the figures and CSVs are referenced by the README
+# and are the evidence for its claims. Notebook scratch output is not.
+results/nb_*
