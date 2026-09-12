@@ -195,11 +195,3 @@ exact QUBO encoding on all 577 feasible routes, the declared prior, and referenc
 planner agreement with recorded Q-MagOpt output.
 The older pytest suite was not executed because pytest was unavailable in the runtime.
 
-## What is worth discussing with QOODA
-
-The defensible finding is a measured, modest navigation improvement from route
-selection using the same simulated sensor and filter, clear at the higher noise
-level and suggestive at the lower one. The next useful validation is their
-representative map/error model and a stronger localization baseline.
-A proposal to test the planning module on such data is justified; a claim of
-proven commercial value or superiority over their internal system is not.
