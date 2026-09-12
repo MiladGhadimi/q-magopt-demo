@@ -108,6 +108,18 @@ Mean over 12 random instances, INTERP warm-started layer to layer. Without INTER
 circuits routinely score *worse* because the classical optimizer stalls.
 
 ---
+## Integrated navigation experiment
+
+Q-MagOpt was connected to the Q-MagNav particle-filter simulator to test whether
+information-aware route selection translates into lower realized localization error
+after GNSS loss. Across 1,800 synthetic missions, D-optimal routing reduced mean
+post-GNSS-loss RMSE by approximately 6–7% compared with shortest-path routing,
+while increasing mean route length by 1.85%. The improvement was clear in the
+8 nT noise scenario and suggestive at 2 nT; no clear advantage over the simpler
+separable-information baseline was established.
+
+See the complete methodology, reproducible code, raw results, statistical analysis,
+and limitations in [`experiments/magnav_benchmark`](experiments/magnav_benchmark).
 
 ## Benchmark
 
