@@ -1,0 +1,8 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+# The --planner qmagopt path additionally requires the q-magopt package at commit
+# 13b6d30a706818323faeb6474a7ffeb11b1eabb2, installed from your local checkout:
+#   pip install -e /path/to/q-magopt-demo
+# The default --planner reference path needs nothing beyond the above.

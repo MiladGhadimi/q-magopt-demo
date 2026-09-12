@@ -1,0 +1,22 @@
+{
+  "q_magopt_commit": "13b6d30a706818323faeb6474a7ffeb11b1eabb2",
+  "q_magopt_commit_public": false,
+  "q_magopt_commit_note": "Not pushed at the time of writing (branch creation rejected, HTTP 403), so this hash is not independently verifiable. reference_planner.py exists so the study can be run and audited without it.",
+  "q_magnav_app_blob": "5ab5d1b6008ccad8107ce5fc554219dd251654e3",
+  "q_magnav_extraction_note": "The source blob's make_trajectory helper was not part of the extraction; the trajectory is now an explicit argument to simulate_sensors. Sensor, odometry, magnetic and filter equations are unchanged.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "pandas": "2.2.3",
+  "protocol_date": "2026-09-11",
+  "protocol_amended": "2026-09-11",
+  "results_version": "v2",
+  "results_v1_location": "integrated_results_qmagopt_v1/",
+  "planner_nominal_noise_nt": 2,
+  "planner_nominal_map_error_nt": 2,
+  "planner_prior_sigma_m": 200,
+  "planner_objective": "det(J_prior + J_route), J_prior = I / (200 m)^2",
+  "seed_entropy": 20260911,
+  "seed_key": "(map_seed, repeat, noise_nt) -> SeedSequence.spawn(2) for sensor and filter; method deliberately excluded so routing methods stay paired",
+  "note": "Routes fixed across sensor noise levels; 8 nT scenario tests robustness of nominal 2 nT design. No outcome-driven tuning. v2 regenerated after the randomization defects described in README 'Corrections'."
+}

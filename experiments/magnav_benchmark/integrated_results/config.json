@@ -1,0 +1,8 @@
+{
+  "maps": 30,
+  "repeats": 10,
+  "particles": 800,
+  "planner": "reference",
+  "entropy": 20260911,
+  "prior_sigma_m": 200.0
+}

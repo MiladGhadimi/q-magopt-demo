@@ -1,0 +1,38 @@
+[
+  {
+    "noise_nt": 2.0,
+    "baseline": "shortest",
+    "failure_reduction_percentage_points": 2.0,
+    "ci": [
+      -4.666666666666667,
+      9.333333333333334
+    ]
+  },
+  {
+    "noise_nt": 2.0,
+    "baseline": "separable",
+    "failure_reduction_percentage_points": 3.3333333333333335,
+    "ci": [
+      0.3333333333333333,
+      7.333333333333333
+    ]
+  },
+  {
+    "noise_nt": 8.0,
+    "baseline": "shortest",
+    "failure_reduction_percentage_points": 4.666666666666667,
+    "ci": [
+      1.0000000000000002,
+      8.333333333333334
+    ]
+  },
+  {
+    "noise_nt": 8.0,
+    "baseline": "separable",
+    "failure_reduction_percentage_points": 0.3333333333333333,
+    "ci": [
+      -4.666666666666667,
+      5.0
+    ]
+  }
+]

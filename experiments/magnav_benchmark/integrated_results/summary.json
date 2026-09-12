@@ -1,0 +1,152 @@
+[
+  {
+    "noise_nt": 2.0,
+    "method": "shortest",
+    "mean_rmse_m": 97.62094460096152,
+    "failure_rate": 0.12,
+    "mean_p95_m": 165.48921723992933,
+    "mean_length_m": 8000.0,
+    "mean_runtime_s": 0.048973323873333544,
+    "reduction_vs_shortest_pct": 0.0,
+    "ci_vs_shortest": [
+      0.0,
+      0.0
+    ],
+    "maps_better_than_shortest": 0,
+    "sign_test_p_vs_shortest": 1.0,
+    "wilcoxon_p_vs_shortest": 1.0,
+    "reduction_vs_separable_pct": -5.869986354347612,
+    "ci_vs_separable": [
+      -12.667549347361966,
+      0.12431365447715495
+    ],
+    "maps_better_than_separable": 11,
+    "sign_test_p_vs_separable": 0.20048842206597334,
+    "wilcoxon_p_vs_separable": 0.08406547829508781
+  },
+  {
+    "noise_nt": 2.0,
+    "method": "separable",
+    "mean_rmse_m": 92.20832831150418,
+    "failure_rate": 0.12333333333333334,
+    "mean_p95_m": 160.2210110061583,
+    "mean_length_m": 8143.623229887271,
+    "mean_runtime_s": 0.049648722260000305,
+    "reduction_vs_shortest_pct": 5.544523576966109,
+    "ci_vs_shortest": [
+      -0.12446839131318717,
+      11.243298902741094
+    ],
+    "maps_better_than_shortest": 19,
+    "sign_test_p_vs_shortest": 0.20048842206597334,
+    "wilcoxon_p_vs_shortest": 0.08406547829508781,
+    "reduction_vs_separable_pct": 0.0,
+    "ci_vs_separable": [
+      0.0,
+      0.0
+    ],
+    "maps_better_than_separable": 0,
+    "sign_test_p_vs_separable": 1.0,
+    "wilcoxon_p_vs_separable": 1.0
+  },
+  {
+    "noise_nt": 2.0,
+    "method": "d_optimal",
+    "mean_rmse_m": 91.78222668628985,
+    "failure_rate": 0.10333333333333333,
+    "mean_p95_m": 159.33941974843216,
+    "mean_length_m": 8147.7267507411925,
+    "mean_runtime_s": 0.04957735796666308,
+    "reduction_vs_shortest_pct": 5.981009442736074,
+    "ci_vs_shortest": [
+      0.7750516260618177,
+      11.403244632386377
+    ],
+    "maps_better_than_shortest": 17,
+    "sign_test_p_vs_shortest": 0.5846647117286922,
+    "wilcoxon_p_vs_shortest": 0.054921628907322884,
+    "reduction_vs_separable_pct": 0.46210752652932063,
+    "ci_vs_separable": [
+      -2.4769434401261736,
+      3.2222306184245793
+    ],
+    "maps_better_than_separable": 10,
+    "sign_test_p_vs_separable": 0.09873714670538905,
+    "wilcoxon_p_vs_separable": 0.6791156892928161
+  },
+  {
+    "noise_nt": 8.0,
+    "method": "shortest",
+    "mean_rmse_m": 126.67891584784898,
+    "failure_rate": 0.33666666666666667,
+    "mean_p95_m": 205.51035256481524,
+    "mean_length_m": 8000.0,
+    "mean_runtime_s": 0.045994435736666145,
+    "reduction_vs_shortest_pct": 0.0,
+    "ci_vs_shortest": [
+      0.0,
+      0.0
+    ],
+    "maps_better_than_shortest": 0,
+    "sign_test_p_vs_shortest": 1.0,
+    "wilcoxon_p_vs_shortest": 1.0,
+    "reduction_vs_separable_pct": -5.046262640806298,
+    "ci_vs_separable": [
+      -9.109984892010836,
+      -1.0820527657204688
+    ],
+    "maps_better_than_separable": 6,
+    "sign_test_p_vs_separable": 0.0014309063553810122,
+    "wilcoxon_p_vs_separable": 0.004338232800364494
+  },
+  {
+    "noise_nt": 8.0,
+    "method": "separable",
+    "mean_rmse_m": 120.59345345870422,
+    "failure_rate": 0.29333333333333333,
+    "mean_p95_m": 198.54928700524636,
+    "mean_length_m": 8143.623229887271,
+    "mean_runtime_s": 0.04639929598999724,
+    "reduction_vs_shortest_pct": 4.8038478608814605,
+    "ci_vs_shortest": [
+      1.0704697185205856,
+      8.34935950024829
+    ],
+    "maps_better_than_shortest": 24,
+    "sign_test_p_vs_shortest": 0.0014309063553810122,
+    "wilcoxon_p_vs_shortest": 0.004338232800364494,
+    "reduction_vs_separable_pct": 0.0,
+    "ci_vs_separable": [
+      0.0,
+      0.0
+    ],
+    "maps_better_than_separable": 0,
+    "sign_test_p_vs_separable": 1.0,
+    "wilcoxon_p_vs_separable": 1.0
+  },
+  {
+    "noise_nt": 8.0,
+    "method": "d_optimal",
+    "mean_rmse_m": 118.11715186194017,
+    "failure_rate": 0.27,
+    "mean_p95_m": 194.7354949757263,
+    "mean_length_m": 8147.7267507411925,
+    "mean_runtime_s": 0.046054468779999524,
+    "reduction_vs_shortest_pct": 6.758633769957523,
+    "ci_vs_shortest": [
+      4.359251282799835,
+      9.220165426095647
+    ],
+    "maps_better_than_shortest": 27,
+    "sign_test_p_vs_shortest": 8.430331945419312e-06,
+    "wilcoxon_p_vs_shortest": 2.348795533180237e-06,
+    "reduction_vs_separable_pct": 2.053429540113516,
+    "ci_vs_separable": [
+      -0.5446249131544966,
+      5.032506959802176
+    ],
+    "maps_better_than_separable": 10,
+    "sign_test_p_vs_separable": 0.09873714670538905,
+    "wilcoxon_p_vs_separable": 0.3010541816225988
+  }
+]
