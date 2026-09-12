@@ -46,9 +46,10 @@ is dominated by the highest-RMSE maps, and a handful of large wins carry it. The
 defensible reading is that the benefit is established at 8 nT and suggestive at 2 nT.
 
 D-optimal vs separable reductions are 0.46% [-2.48%, 3.22%] at 2 nT and
-2.05% [-0.54%, 5.03%] at 8 nT. Both intervals include zero, and separable is the
-better route on 20 of 30 maps at each noise level (sign test p = 0.099). So
-D-optimal has the better mean and the worse median against separable: its advantage
+2.05% [-0.54%, 5.03%] at 8 nT. Both intervals include zero, and D-optimal is better on 10 maps, tied on 14, and worse on 6 at each
+noise level. Excluding ties, the two-sided sign-test p-value is 0.454.
+Therefore, the experiment does not distinguish D-optimal from the
+separable-information baseline. its advantage
 comes from a few large wins rather than from winning more often. Nothing here
 distinguishes the two information objectives.
 
